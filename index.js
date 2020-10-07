@@ -1,7 +1,6 @@
 var Saludo = require('./Saludo');
+var SaludoArgs = require('./SaludoArgs');
 
-var nombre = process.argv[2];
-
-var saludo = new Saludo(nombre);
+var saludo = new Saludo(SaludoArgs.nombre);
 
 saludo.saluda();
