@@ -1,2 +1,2 @@
-var hello = 'world!';
-console.log(hello);
+var hello = 'world';
+console.log(`Hello ${hello}!`);
