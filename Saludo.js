@@ -6,6 +6,6 @@ module.exports = class Saludo {
   }
   
   saluda() {
-    console.log(`Hola ${this.nombre}!?!`);
+    console.info(`Hola ${this.nombre}!`);
   }
 };
