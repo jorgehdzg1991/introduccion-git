@@ -4,6 +4,6 @@ module.exports = class SaludoArgs {
     }
 
     static get apellido() {
-        return process.argv[4];
+        return process.argv[3];
     }
 }
